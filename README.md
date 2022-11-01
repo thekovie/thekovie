@@ -2,9 +2,9 @@
 
   [![Banner](https://svg-banners.vercel.app/api?type=rainbow&text1=thekovie%20&width=800&height=400)](https://github.com/thekovie)
  
-  [![Metrics](https://gist.githubusercontent.com/thekovie/9834b4a0e946ad931756b5cb5873ba02/raw/github-metrics.svg)]
+  ![Metrics](https://gist.githubusercontent.com/thekovie/9834b4a0e946ad931756b5cb5873ba02/raw/github-metrics.svg)
   
-  [![Snake](https://gist.githubusercontent.com/thekovie/9834b4a0e946ad931756b5cb5873ba02/raw/github-snake.svg)]
+  ![Snake](https://gist.githubusercontent.com/thekovie/9834b4a0e946ad931756b5cb5873ba02/raw/github-snake.svg)
 </div>
 
 <!--
