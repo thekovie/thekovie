@@ -5,6 +5,8 @@
   ![Metrics](https://gist.githubusercontent.com/thekovie/9834b4a0e946ad931756b5cb5873ba02/raw/github-metrics.svg)
   
   ![Snake](https://gist.githubusercontent.com/thekovie/9834b4a0e946ad931756b5cb5873ba02/raw/github-snake.svg)
+  
+  ![City](https://gist.githubusercontent.com/thekovie/9834b4a0e946ad931756b5cb5873ba02/raw/metrics.plugin.skyline.city.svg)
 </div>
 
 <!--
