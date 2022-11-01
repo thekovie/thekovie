@@ -4,9 +4,10 @@
  
   ![Metrics](https://gist.githubusercontent.com/thekovie/9834b4a0e946ad931756b5cb5873ba02/raw/github-metrics.svg)
   
-  ![Achievements](https://gist.githubusercontent.com/thekovie/9834b4a0e946ad931756b5cb5873ba02/raw/metrics.plugin.achievements.compact.svg)
-  
   ![Snake](https://gist.githubusercontent.com/thekovie/9834b4a0e946ad931756b5cb5873ba02/raw/github-snake.svg)
+  
+  ![Achievements](https://gist.githubusercontent.com/thekovie/9834b4a0e946ad931756b5cb5873ba02/raw/metrics.plugin.achievements.compact.svg)
+  ![Followers](https://gist.githubusercontent.com/thekovie/9834b4a0e946ad931756b5cb5873ba02/raw/metrics.plugin.people.followers.svg)
   
   ![City](https://gist.githubusercontent.com/thekovie/9834b4a0e946ad931756b5cb5873ba02/raw/metrics.plugin.skyline.city.svg)
   
