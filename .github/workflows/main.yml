@@ -1,11 +1,11 @@
 name: Metrics
 on:
-  # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
-  # (optional) Run workflow manually
+  schedule:
+    - cron: "0 */6 * * *"
   workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master", "main"]}
+  push:
+    branches: [ main ]
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -15,3 +15,5 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          output_action: gist
+          committer_gist: 9834b4a0e946ad931756b5cb5873ba02
