@@ -1,7 +1,8 @@
-### Hi there 👋
-
-[![SVG Banners](https://svg-banners.vercel.app/api?type=typeWriter&text1=thekovie👨‍💻&width=800&height=400)](https://github.com/Akshay090/svg-banners)
-
+<div align="center">
+  [![Banner](https://svg-banners.vercel.app/api?type=typeWriter&text1=thekovie💻&width=800&height=400)](https://github.com/thekovie)
+  
+  [![Metrics](https://gist.githubusercontent.com/thekovie/9834b4a0e946ad931756b5cb5873ba02/raw/github-metrics.svg)]
+</div>
 
 
 <!--
