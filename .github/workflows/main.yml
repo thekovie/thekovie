@@ -17,3 +17,14 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: gist
           committer_gist: 9834b4a0e946ad931756b5cb5873ba02
+      - uses: Platane/snk@v2
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: github-snake.svg?palette=github-dark
+      - name: Deploy
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          gist_id: 9834b4a0e946ad931756b5cb5873ba02
+          file_path: github-snake.svg
+          file_type: binary
