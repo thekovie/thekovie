@@ -1,5 +1,7 @@
 <div align="center">
-  [![Banner](https://svg-banners.vercel.app/api?type=typeWriter&text1=thekovie💻&width=800&height=400)](https://github.com/thekovie)
+
+  [![Banner](https://svg-banners.vercel.app/api?type=rainbow&text1=thekovie%20&width=800&height=400)](https://github.com/thekovie)
+ 
   
   [![Metrics](https://gist.githubusercontent.com/thekovie/9834b4a0e946ad931756b5cb5873ba02/raw/github-metrics.svg)]
 </div>
