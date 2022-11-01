@@ -10,6 +10,8 @@
   
   ![City](https://gist.githubusercontent.com/thekovie/9834b4a0e946ad931756b5cb5873ba02/raw/metrics.plugin.skyline.city.svg)
   
+  <hr />
+  
   ### Playing now
   [![Spotify](https://spotify-readme-embed.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/12165976541)
   
