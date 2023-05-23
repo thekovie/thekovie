@@ -36,7 +36,7 @@ jobs:
           plugin_skyline: yes
           output_action: gist
           committer_gist: 9834b4a0e946ad931756b5cb5873ba02
-          plugin_skyline_year: 2022
+          plugin_skyline_year: 2023
           plugin_skyline_frames: 6
           plugin_skyline_quality: 1
           plugin_skyline_settings: |
