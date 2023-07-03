@@ -21,19 +21,13 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: github-snake.svg?palette=github-dark
           committer_branch: assets
-      - name: Deploy
-        uses: exuanbo/actions-deploy-gist@v1
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          file_path: github-snake.svg
-          file_type: binary
-          committer_branch: assets
-      - name: Squash and Commit
-        run: |
-          git add .
-          git reset --soft HEAD~
-          git commit -m "chore: update assets [skip ci]"
-          git push -f
+#       - name: Deploy
+#         uses: exuanbo/actions-deploy-gist@v1
+#         with:
+#           token: ${{ secrets.METRICS_TOKEN }}
+#           file_path: github-snake.svg
+#           file_type: binary
+#           committer_branch: assets
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.skyline.city.svg
@@ -71,3 +65,9 @@ jobs:
           committer_branch: assets
           plugin_people: yes
           plugin_people_types: followers
+      - name: Squash and Commit
+        run: |
+          git add .
+          git reset --soft HEAD~
+          git commit -m "chore: update assets [skip ci]"
+          git push -f
