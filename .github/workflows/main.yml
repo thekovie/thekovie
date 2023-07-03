@@ -20,12 +20,14 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: github-snake.svg?palette=github-dark
+          committer_branch: assets
       - name: Deploy
         uses: exuanbo/actions-deploy-gist@v1
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           file_path: github-snake.svg
           file_type: binary
+          committer_branch: assets
       - name: Squash and Commit
         run: |
           git add .
@@ -37,6 +39,7 @@ jobs:
           filename: metrics.plugin.skyline.city.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
+          committer_branch: assets
           plugin_skyline: yes
           plugin_skyline_year: 2023
           plugin_skyline_frames: 6
@@ -53,6 +56,7 @@ jobs:
           filename: metrics.plugin.achievements.compact.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
+          committer_branch: assets
           plugin_achievements: yes
           plugin_achievements_only: >-
             polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
@@ -64,5 +68,6 @@ jobs:
           filename: metrics.plugin.people.followers.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
+          committer_branch: assets
           plugin_people: yes
           plugin_people_types: followers
