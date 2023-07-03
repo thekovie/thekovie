@@ -28,6 +28,12 @@ jobs:
           gist_id: 9834b4a0e946ad931756b5cb5873ba02
           file_path: github-snake.svg
           file_type: binary
+      - name: Squash and Commit
+        run: |
+          git add .
+          git reset --soft HEAD~
+          git commit -m "chore: update assets [skip ci]"
+          git push -f
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.skyline.city.svg
