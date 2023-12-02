@@ -6,16 +6,18 @@
  
   [![Metrics](https://raw.githubusercontent.com/thekovie/thekovie/assets/github-metrics.svg)](https://github.com/thekovie)
   
-  
-  
+</div>  
+
+<!--
   <hr />
   
   ### Playing now
   [![Spotify](https://spotify-readme-embed.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/12165976541)
-  
-</div>
 
-<!--
+</div>  
+
+
+
 **thekovie/thekovie** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
